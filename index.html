@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+    <body>
+
+<div class="card">
+    <div class="search">
+        <input id="inputfield" type="text" placeholder="Upiši ime mjesta" spellcheck="false">
+        <button id="searchbutton"><img src="images/search.png"></button>
+    </div>
+    
+    <div class="error">
+        <p>Pogrešan naziv mjesta</p>
+    </div>
+
+
+    <div class="weather">
+        <h2 class="city">Sarajevo</h2>
+        <h3 class="country"></h3>
+        <img src="images/rain.png" class="weather-icon">
+        <div class="weather-text">Kiša</div>
+        <h1 class="temp">22°C</h1>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Vlažnost zraka</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png">
+                <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Jačina vjetra</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="script.js">
+</script>
+
+    </body>
+</html>
